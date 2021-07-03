@@ -7,13 +7,12 @@
     "dev": "ts-node -T",
     "users": "ts-node -T src/examples/getAll/users.ts",
     "faker": "ts-node -T src/utils/faker.ts"
-    
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/faker": "^5.5.6",
     "ts-node": "^10.0.0",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "dotenv": "^10.0.0",

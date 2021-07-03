@@ -4,9 +4,10 @@ import { populate } from "../../../populator/Populate"
 import { runExample } from "../../../utils/runExample"
 
 // use one of these commands to run this example
-
 // npm run dev src/examples/operators/query-and-projection/greaterThanOrEqual.ts
 // yarn dev src/examples/operators/query-and-projection/greaterThanOrEqual.ts
+
+// Use `npm run users` to get the users collection
 
 runExample(async () => {
   await database.init()
