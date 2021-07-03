@@ -4,7 +4,7 @@ Created to help you building MongoDB queries.
 ## Available examples
 <details>
 <summary>Operators</summary>
-### Query and Projection
+<h3> Query and Projection </h3>
 
 - `$eq | $ne`: Equal | Not Equal
 - `$in | $nin`: Selects the documents whose field holds an array that contains at least one element that matches a value in the specified array
